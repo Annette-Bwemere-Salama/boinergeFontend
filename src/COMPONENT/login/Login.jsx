@@ -13,18 +13,18 @@ function Login() {
   }
   return (
     <div className='container'>
-      <div className='blockImage'>img</div>
+      <div className='blockImage'><h1>BoinergeT</h1></div>
       <div className='blockFormulaire'>
           <div className='form'>
               <form onSubmit={handleSubmit}>
-                <label>Entez votre mail:
+                <label>Entez votre mail
                 </label>
                   <input type="email" value={mail} placeholder='ex:bwemereannette@gmail.com' className='mail' 
                   onChange={(e)=> setMail(e.target.value)}
                   />
-                <label>Entez votre Mot de pass:
+                <label>Entez votre Mot de pass
                 </label> 
-                  <input type="password" value={password} placeholder='ex:.......' className='password'
+                  <input type="password" value={password} placeholder='ex:....' className='password'
                   onChange={(e)=> setPassword(e.target.value)}
                   />
                 <button>Login</button>

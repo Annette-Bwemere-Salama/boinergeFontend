@@ -4,23 +4,18 @@ body{
     margin: 0;
     padding: 0;
 }
-
-
-
-
 .container{
     display: flex;
     height: 100vh;
 }
 
-.block1{
-/* height: 100vw; */
+.blockImage{
 width: 50%;
 background-color: red;
 }
 
-.block2{
-/* height: 100vw; */
+.blockFormulaire{
+
 width: 50%;
 background-color: blue;
 }

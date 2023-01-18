@@ -1,8 +1,14 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300;400;700&family=Poppins:wght@200;300;400;600;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+Symbols:wght@300;400;700&family=Poppins:wght@200;300;400;600;700;900&display=swap');
+
 body{
     overflow: overlay; 
     margin: 0;
     padding: 0;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     display: flex;
@@ -24,15 +30,41 @@ background-size: cover;
 
 .blockFormulaire{
 width: 50%;
-background-color: blue;
+background-color: rgb(66, 84, 100);
 display: flex;
-flex-direction: column;
-align-items: center;
+
+color: whitesmoke;
 
 
 }
 
-/* form{
- 
+form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 8px;
+ margin-top: 10px;
+ border: none;
     
-} */
+}
+
+.mail{
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+}
+.password{
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+
+}
+button{
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    /* box-shadow: 3px solid white; */
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}

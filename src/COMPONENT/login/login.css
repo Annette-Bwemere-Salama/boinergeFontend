@@ -11,7 +11,15 @@ body{
 
 .blockImage{
 width: 50%;
-background-color: red;
+
+background-image: url("john-price-RAZQiZOX3mU-unsplash.jpg");
+background-color: yellow;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/* border-radius: 15%; */
+
+
 }
 
 .blockFormulaire{

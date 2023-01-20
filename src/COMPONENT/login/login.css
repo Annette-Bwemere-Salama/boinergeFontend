@@ -25,7 +25,6 @@ background-repeat: no-repeat;
 background-size: cover;
 align-items:center;
 
-
 }
 
 .blockFormulaire{
@@ -60,10 +59,26 @@ form{
 
 }
 button{
+    border: none;
     height: 40px;
-    width: 80px;
+    width: 100px;
     font-weight: bold;
     cursor: pointer;
     /* box-shadow: 3px solid white; */
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.loginButon{
+    background-color: cornflowerblue;
+}
+
+.loginButon:hover{
+    background-color: rgb(66, 84, 100);
+    /* background-color: rgb(187, 116, 9); */
+    color: aliceblue;
+}
+
+.registerButton:hover{
+    background-color: rgb(66, 84, 100);
+    /* background-color: rgb(187, 116, 9); */
+    color: aliceblue;
 }

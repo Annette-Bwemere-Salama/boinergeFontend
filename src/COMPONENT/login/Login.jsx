@@ -24,10 +24,14 @@ function Login() {
                   />
                 <label>Entez votre Mot de pass
                 </label> 
-                  <input type="password" value={password} placeholder='ex:....' className='password'
+                <input type="password" value={password} placeholder='ex:....' className='password'
                   onChange={(e)=> setPassword(e.target.value)}
-                  />
-                <button>Login</button>
+                />
+                  <div>
+
+                  <button className='loginButon'>Login</button>
+                  <button className='registerButton'>Register</button>
+                  </div>
               </form>
           </div>
         </div>

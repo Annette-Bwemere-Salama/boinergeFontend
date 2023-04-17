@@ -4,7 +4,8 @@ Ce logiciel permet de gérer les activités quotidiennes d'une église.
 
 ## Fonctionnalités
 
-- Gestion des membres : enregistrement des informations des membres, suivi des contributions et des dons
+<!-- - Gestion des membres : enregistrement des informations des membres, -->
+- suivi des contributions et des dons
 - Gestion des événements : planification et organisation des événements de l'église
 - Gestion financière : suivi des dépenses et des revenus de l'église
 - Rapports : génération de rapports sur les activités de l'église
